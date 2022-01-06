@@ -5,9 +5,13 @@ sealed trait Fruit {
 }
 
 case object Apple extends Fruit {
-  val cost = 60.00
+  val cost = 60
 }
 
 case object Orange extends Fruit {
-  val cost = 25.00
+  val cost = 25
+}
+
+case object Banana extends Fruit {
+  val cost = 20
 }
